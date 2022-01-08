@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html { 
+background: url(bg.jpeg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:auto;
+width:auto;
+}
+
+.topnav {
+  float: right;
+  overflow: hidden;
+  /* position: absolute; */
+}
+#ll{
+  position: absolute;
+width: 400px;
+height: 400px;
+left: 20px;
+top: 15px;
+
+mix-blend-mode: darken;
+border-radius: 200px;
+}
+.lg2{
+  position: absolute;
+width: 161px;
+height: 65px;
+left: 1459px;
+top: 42px;
+background: #FA0303;
+border-radius: 13px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 36px;
+/* display: flex; */
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.lg3{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 36px;
+/* display: flex; */
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+position: absolute;
+width: 161px;
+height: 65px;
+left: 1657px;
+top: 42px;
+background: #FA0303;
+border-radius: 13px;
+}
+#lb{
+    padding-left: 20px;
+    width: 419px;
+    height: 78px;
+    left: 527px;
+    top: 312px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 78px;
+    align-items: center;
+    color: #FFFBFB;
+}
+#d1{
+    position: absolute;
+    width: 452px;
+    height: 78px;
+    left: 534px;
+    top: 312px;
+}
+#d2{
+    position: absolute;
+    width: 536px;
+    height: 60px;
+    left: 509px;
+    top: 444px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+#d3{
+    position: absolute;
+    width: 536px;
+    height: 60px;
+    left: 509px;
+    top: 551px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+#d4{
+    position: absolute;
+    width: 536px;
+    height: 60px;
+    left: 508px;
+    top: 651px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+#d5{
+    position: absolute;
+    width: 536px;
+    height: 60px;
+    left: 508px;
+    top: 758px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+#in1{
+    /* position: absolute; */
+    width: 536px;
+    height: 60px;
+    left: 509px;
+    top: 444px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-color: #FFFBFB;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+}
+#in2{
+    width: 536px;
+    height: 60px;
+    left: 508px;
+    top: 551px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-color: #FFFBFB;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+}
+#s1{
+    width: 536px;
+    height: 60px;
+    left: 504px;
+    top: 651px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    border-radius: 10px;
+    border-color: #FFFBFB;
+    background: #FFFFFF;
+}
+#s2{
+    width: 536px;
+    height: 60px;
+    left: 509px;
+    top: 758px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #FFFBFB;
+    color: #000000;
+    background: #FFFFFF;
+}
+#s3{
+    width: 300px;
+    height: 60px;
+    left: 509px;
+    top: 758px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #FFFBFB;
+    color: #000000;
+    background: #FFFFFF;
+}
+#s4{
+    width: 236px;
+    height: 60px;
+    left: 509px;
+    top: 758px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #FFFBFB;
+    color: #000000;
+    background: #FFFFFF;
+}
+#d6{
+        position: absolute;
+    width: 536px;
+    height: 60px;
+    left: 505px;
+    top: 853px;
+    display: inline-flex;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+#d7{
+    /* position: absolute;
+    width: 329px;
+    height: 60px;
+    left: 509px;
+    top: 975px;
+
+    background: #FA0303;
+    border-radius: 10px; */
+}
+#bt1{
+    /* position: absolute; */
+/* width: 319px;
+height: 80px;
+left: 514px;
+top: 965px; */
+    position: absolute;
+    width: 329px;
+    height: 60px;
+    left: 509px;
+    top: 975px;
+    background: #FA0303;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFBFB;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+<body > 
+  <img id="ll" src="logo.png">
+
+  <!-- <div class="topnav"> -->
+    <button class="lg2">HOME</button>
+    <button class="lg3">CONTACT</button>
+  <!-- </div> -->
+<div> 
+  <form action="/action_page.php">
+      <div id="d1">
+        <label id="lb">DONATE BLOOD </label>
+    </div>
+    <div id="d2">
+        <input type="text" id="in1" placeholder="Enter Email or Phone">
+     </div>
+     <div id="d3">
+        <input type="text" id="in2" placeholder="Enter Name">
+     </div>
+     <div id="d4">
+        <select id="s1">
+            <option value="" disabled selected>Select Blood Group</option>
+            <option value="hurr">Durr</option>
+        </select>   
+    </div>
+    <div id="d5">
+        <select id="s2">
+            <option value="" disabled selected>City</option>
+            <option value="hurr">Durr</option>
+        </select>   
+    </div>
+    <div id="d6">
+        <select id="s3">
+            <option value="" disabled selected>Last Donation Date</option>
+            <option value="hurr">Durr</option>
+        </select>   
+        <select id="s4">
+            <option value="" disabled selected> D-O-B </option>
+            <option value="hurr">Durr</option>
+        </select>  
+    </div>
+    <div id="d7">
+        <input type="submit" id="bt1" value="REGISTER FOR DONATION">
+     </div>
+  </form>
+</div>
+</body>
+</html>
